@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Person Fields Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      color: #333;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    #searchInput {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+    .no-results {
+      text-align: center;
+      font-style: italic;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Search Person Fields</h1>
+  <input type="text" id="searchInput" placeholder="Type to search by key, name, type, or description" />
+  <table id="fieldsTable">
+    <thead>
+      <tr>
+        <th>Key</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script>
+    // Fetch and display JSON data
+    fetch('personFields.json')
+      .then(response => response.json())
+      .then(json => {
+        let fields = json.data || [];
+        
+        // Default sort by Name ascending
+        fields.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+
+        const tbody = document.querySelector('#fieldsTable tbody');
+        const searchInput = document.getElementById('searchInput');
+
+        // Render initial sorted table
+        renderTable(fields);
+
+        // Listen for search input changes
+        searchInput.addEventListener('input', () => {
+          const query = searchInput.value.trim().toLowerCase();
+          const filtered = fields.filter(field => {
+            return (
+              (field.key && field.key.toLowerCase().includes(query)) ||
+              (field.name && field.name.toLowerCase().includes(query)) ||
+              (field.field_type && field.field_type.toLowerCase().includes(query)) ||
+              (field.description && field.description.toLowerCase().includes(query))
+            );
+          });
+          renderTable(filtered);
+        });
+
+        // Function to render table rows
+        function renderTable(list) {
+          tbody.innerHTML = '';
+          if (list.length === 0) {
+            const row = document.createElement('tr');
+            row.innerHTML = '<td colspan="4" class="no-results">No matching fields found</td>';
+            tbody.appendChild(row);
+            return;
+          }
+          list.forEach(field => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <td>${field.key || ''}</td>
+              <td>${field.name || ''}</td>
+              <td>${field.field_type || ''}</td>
+              <td>${field.description || ''}</td>
+            `;
+            tbody.appendChild(row);
+          });
+        }
+      })
+      .catch(err => {
+        console.error('Error loading personFields.json:', err);
+        const tbody = document.querySelector('#fieldsTable tbody');
+        const row = document.createElement('tr');
+        row.innerHTML = '<td colspan="4" class="no-results">Failed to load data</td>';
+        tbody.appendChild(row);
+      });
+  </script>
+</body>
+</html>

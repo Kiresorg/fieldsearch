@@ -1,0 +1,2536 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 13,
+            "key": "id",
+            "name": "ID",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 1,
+            "key": "name",
+            "name": "Name",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2023-09-21 06:57:16",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "use_field": "id",
+            "link": "/person/"
+        },
+        {
+            "id": 5,
+            "key": "add_time",
+            "name": "Person created",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 6,
+            "key": "update_time",
+            "name": "Update time",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 7,
+            "key": "org_id",
+            "name": "Organization",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "org",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2023-09-21 06:57:16",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "use_field": "org_id",
+            "link": "/organization/",
+            "autocomplete": "org_autocomplete",
+            "display_field": "org_name"
+        },
+        {
+            "id": 8,
+            "key": "owner_id",
+            "name": "Owner",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "user",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "use_field": "owner_id",
+            "display_field": "owner_name"
+        },
+        {
+            "id": 9,
+            "key": "open_deals_count",
+            "name": "Open deals",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "double",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 10,
+            "key": "visible_to",
+            "name": "Visible to",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "visible_to",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2023-09-21 06:57:16",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Item owner"
+                },
+                {
+                    "id": 3,
+                    "label": "Item owner’s visibility group"
+                },
+                {
+                    "id": 5,
+                    "label": "Item owner’s visibility group and sub-groups"
+                },
+                {
+                    "id": 7,
+                    "label": "All users"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "key": "next_activity_date",
+            "name": "Next activity date",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 12,
+            "key": "last_activity_date",
+            "name": "Last activity date",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 14,
+            "key": "won_deals_count",
+            "name": "Won deals",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 15,
+            "key": "lost_deals_count",
+            "name": "Lost deals",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 16,
+            "key": "closed_deals_count",
+            "name": "Closed deals",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 17,
+            "key": "activities_count",
+            "name": "Total activities",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 18,
+            "key": "done_activities_count",
+            "name": "Done activities",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 19,
+            "key": "undone_activities_count",
+            "name": "Activities to do",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 20,
+            "key": "email_messages_count",
+            "name": "Email messages count",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 21,
+            "key": "picture_id",
+            "name": "Profile picture",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "picture",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 22,
+            "key": "last_incoming_mail_time",
+            "name": "Last email received",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 23,
+            "key": "last_outgoing_mail_time",
+            "name": "Last email sent",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 53,
+            "key": "4c4d8fcafa03560abac484e044814d70371963da",
+            "name": "Surgery Date",
+            "group_id": 16,
+            "order_nr": 2,
+            "field_type": "date",
+            "json_column_flag": true,
+            "add_time": "2025-03-21 14:50:44",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true
+        },
+        {
+            "id": 52,
+            "key": "bad2255b304f2b11c6d2c13269685b7daf843340",
+            "name": "WIP STATE",
+            "group_id": 16,
+            "order_nr": 3,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2025-03-21 14:36:15",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 528,
+                    "label": "12 Ins Verification"
+                },
+                {
+                    "id": 529,
+                    "label": "12.1"
+                },
+                {
+                    "id": 530,
+                    "label": "13"
+                },
+                {
+                    "id": 531,
+                    "label": "13.1"
+                },
+                {
+                    "id": 532,
+                    "label": "14 CFD"
+                },
+                {
+                    "id": 534,
+                    "label": "17 PendAuth"
+                },
+                {
+                    "id": 537,
+                    "label": "23.1 Denied: Update Pt"
+                },
+                {
+                    "id": 538,
+                    "label": "25 Order Cx"
+                },
+                {
+                    "id": 546,
+                    "label": "WIP 11 R/S - Reinstated Order"
+                },
+                {
+                    "id": 548,
+                    "label": "13 Ins Cleared: PendConfirmation"
+                },
+                {
+                    "id": 550,
+                    "label": "14.1 CFD Hold-Add reason"
+                },
+                {
+                    "id": 551,
+                    "label": "20 Pt Agreed to Del."
+                },
+                {
+                    "id": 552,
+                    "label": "23.1 Denied: Update Pt."
+                },
+                {
+                    "id": 554,
+                    "label": "13 Ins Cleared: PendConfirmation"
+                },
+                {
+                    "id": 555,
+                    "label": "40 Device Delivered"
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "key": "9e4a511882fc0b718f93e699cd49e6de2d2ac7dd",
+            "name": "Rental Order",
+            "group_id": 16,
+            "order_nr": 4,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2025-04-08 14:56:59",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true
+        },
+        {
+            "id": 54,
+            "key": "eb4dc068ebf8bdecfc0fceec830f95fbf19f7439",
+            "name": "Patient ID",
+            "group_id": 16,
+            "order_nr": 5,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2025-03-21 16:31:31",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true
+        },
+        {
+            "id": 60,
+            "key": "9c0d2d3a047a3f7769eb97dff96d090887e0501f",
+            "name": "Navigator",
+            "group_id": 16,
+            "order_nr": 6,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2025-03-28 15:15:05",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 542,
+                    "label": "JH"
+                },
+                {
+                    "id": 543,
+                    "label": "ME"
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "key": "b045c4b66d25a8728111a986e1afda4c2aaddab9",
+            "name": "State/Time Zone",
+            "group_id": 16,
+            "order_nr": 7,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2025-03-21 22:25:06",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true
+        },
+        {
+            "id": 63,
+            "key": "d7b207fc72a6073324ed1bf1eaddc49e59baa52a",
+            "name": "Physician Name",
+            "group_id": 16,
+            "order_nr": 8,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2025-03-28 21:10:22",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true
+        },
+        {
+            "id": 49,
+            "key": "label_ids",
+            "name": "Labels",
+            "group_id": null,
+            "order_nr": 9,
+            "field_type": "set",
+            "json_column_flag": false,
+            "add_time": "2024-05-09 12:38:09",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 5,
+                    "label": "Customer",
+                    "color": "green"
+                },
+                {
+                    "id": 6,
+                    "label": "Hot lead",
+                    "color": "red"
+                },
+                {
+                    "id": 7,
+                    "label": "Warm lead",
+                    "color": "yellow"
+                },
+                {
+                    "id": 8,
+                    "label": "Cold lead",
+                    "color": "gray"
+                },
+                {
+                    "id": 60,
+                    "label": "LOI Sent",
+                    "color": "purple"
+                },
+                {
+                    "id": 66,
+                    "label": "PACE",
+                    "color": "brown"
+                },
+                {
+                    "id": 498,
+                    "label": "DONE",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 499,
+                    "label": "REFER DOC",
+                    "color": "pink"
+                },
+                {
+                    "id": 500,
+                    "label": "SBA rev",
+                    "color": "blue"
+                },
+                {
+                    "id": 501,
+                    "label": "ZOOM",
+                    "color": "purple"
+                },
+                {
+                    "id": 502,
+                    "label": "Linked",
+                    "color": "orange"
+                },
+                {
+                    "id": 503,
+                    "label": "Vendor",
+                    "color": "gray"
+                },
+                {
+                    "id": 504,
+                    "label": "ROMTech",
+                    "color": "gray"
+                },
+                {
+                    "id": 505,
+                    "label": "SOLO",
+                    "color": "gray"
+                },
+                {
+                    "id": 506,
+                    "label": "Not Active",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 507,
+                    "label": "Delay",
+                    "color": "orange"
+                },
+                {
+                    "id": 508,
+                    "label": "HOT - OTHER",
+                    "color": "red"
+                },
+                {
+                    "id": 509,
+                    "label": "Paused",
+                    "color": "brown"
+                },
+                {
+                    "id": 510,
+                    "label": "Patient",
+                    "color": "blue"
+                },
+                {
+                    "id": 512,
+                    "label": "Waiting for BT",
+                    "color": "yellow"
+                },
+                {
+                    "id": 514,
+                    "label": "WIP 12",
+                    "color": "red"
+                },
+                {
+                    "id": 515,
+                    "label": "PN PILOT",
+                    "color": "green"
+                },
+                {
+                    "id": 517,
+                    "label": "Hold for Order",
+                    "color": "gray"
+                },
+                {
+                    "id": 518,
+                    "label": "Hold for Order",
+                    "color": "gray"
+                },
+                {
+                    "id": 519,
+                    "label": "Special",
+                    "color": "pink"
+                },
+                {
+                    "id": 520,
+                    "label": "Special",
+                    "color": "pink"
+                },
+                {
+                    "id": 521,
+                    "label": "Waiting for order",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 522,
+                    "label": "Waiting for order",
+                    "color": "gray"
+                },
+                {
+                    "id": 523,
+                    "label": "WIP 17",
+                    "color": "yellow"
+                },
+                {
+                    "id": 524,
+                    "label": "WIP 17",
+                    "color": "yellow"
+                },
+                {
+                    "id": 525,
+                    "label": "HOT-Timeline",
+                    "color": "purple"
+                },
+                {
+                    "id": 526,
+                    "label": "HOT -TIMELINE",
+                    "color": "purple"
+                },
+                {
+                    "id": 527,
+                    "label": "CFD",
+                    "color": "green"
+                },
+                {
+                    "id": 533,
+                    "label": "WIP 14 CFD",
+                    "color": "green"
+                },
+                {
+                    "id": 535,
+                    "label": "Cancel/Reschedule",
+                    "color": "gray"
+                },
+                {
+                    "id": 536,
+                    "label": "23.1 Denied: Update Pt",
+                    "color": "red"
+                },
+                {
+                    "id": 541,
+                    "label": "ACTIVE FOR SELF_PAY",
+                    "color": "pink"
+                },
+                {
+                    "id": 547,
+                    "label": "NO WIP",
+                    "color": "pink"
+                },
+                {
+                    "id": 549,
+                    "label": "13 Ins Cleared: PendConfirmation",
+                    "color": "pink"
+                },
+                {
+                    "id": 553,
+                    "label": "CONFIRM ORDER",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "key": "978a8900d4ab4511d3cb43a77a5e4cb2ef3e8d9f",
+            "name": "Refer Doc",
+            "group_id": 11,
+            "order_nr": 11,
+            "field_type": "people",
+            "json_column_flag": true,
+            "add_time": "2024-11-11 22:25:24",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true
+        },
+        {
+            "id": 48,
+            "key": "b94f43b3520f11afed4854b513abc6b12bff5502",
+            "name": "Industry Hierarchical Category",
+            "group_id": 11,
+            "order_nr": 12,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 18:13:15",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 248,
+                    "label": "Biz Service"
+                },
+                {
+                    "id": 249,
+                    "label": "Conglomerate"
+                },
+                {
+                    "id": 250,
+                    "label": "Consumer Services"
+                },
+                {
+                    "id": 251,
+                    "label": "Education"
+                },
+                {
+                    "id": 252,
+                    "label": "Government"
+                },
+                {
+                    "id": 253,
+                    "label": "Health Services"
+                },
+                {
+                    "id": 254,
+                    "label": "Hospitality"
+                },
+                {
+                    "id": 255,
+                    "label": "Hospitals"
+                },
+                {
+                    "id": 256,
+                    "label": "Insurance"
+                },
+                {
+                    "id": 257,
+                    "label": "Legal"
+                },
+                {
+                    "id": 258,
+                    "label": "Media"
+                },
+                {
+                    "id": 259,
+                    "label": "MFG"
+                },
+                {
+                    "id": 260,
+                    "label": "Orgs"
+                },
+                {
+                    "id": 261,
+                    "label": "Real Estate"
+                },
+                {
+                    "id": 262,
+                    "label": "Retail"
+                },
+                {
+                    "id": 263,
+                    "label": "Software"
+                },
+                {
+                    "id": 264,
+                    "label": "Telecom"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d",
+            "name": "Address",
+            "group_id": 10,
+            "order_nr": 14,
+            "field_type": "address",
+            "json_column_flag": true,
+            "add_time": "2023-09-18 21:23:22",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_lat",
+            "name": "Latitude of Address",
+            "field_type": "double",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "lat"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_long",
+            "name": "Longitude of Address",
+            "field_type": "double",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "long"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_subpremise",
+            "name": "Apartment/suite no of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "subpremise"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_street_number",
+            "name": "House number of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "street_number"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_route",
+            "name": "Street/road name of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "route"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_sublocality",
+            "name": "District/sublocality of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "sublocality"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_locality",
+            "name": "City/town/village/locality of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "locality"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_admin_area_level_1",
+            "name": "State/county of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "admin_area_level_1"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_admin_area_level_2",
+            "name": "Region of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "admin_area_level_2"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_country",
+            "name": "Country of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "country"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_postal_code",
+            "name": "ZIP/Postal code of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "postal_code"
+        },
+        {
+            "id": null,
+            "key": "e9ab0a0fdd66d3a5f03c28e0fefdf8e84f53af0d_formatted_address",
+            "name": "Full/combined address of Address",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 27,
+            "id_suffix": "formatted_address"
+        },
+        {
+            "id": 37,
+            "key": "postal_address",
+            "name": "Postal address",
+            "group_id": 10,
+            "order_nr": 15,
+            "field_type": "address",
+            "json_column_flag": false,
+            "add_time": "2023-12-13 21:11:39",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": null,
+            "key": "postal_address_lat",
+            "name": "Latitude of Postal address",
+            "field_type": "double",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "lat"
+        },
+        {
+            "id": null,
+            "key": "postal_address_long",
+            "name": "Longitude of Postal address",
+            "field_type": "double",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "long"
+        },
+        {
+            "id": null,
+            "key": "postal_address_subpremise",
+            "name": "Apartment/suite no of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "subpremise"
+        },
+        {
+            "id": null,
+            "key": "postal_address_street_number",
+            "name": "House number of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "street_number"
+        },
+        {
+            "id": null,
+            "key": "postal_address_route",
+            "name": "Street/road name of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "route"
+        },
+        {
+            "id": null,
+            "key": "postal_address_sublocality",
+            "name": "District/sublocality of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "sublocality"
+        },
+        {
+            "id": null,
+            "key": "postal_address_locality",
+            "name": "City/town/village/locality of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "locality"
+        },
+        {
+            "id": null,
+            "key": "postal_address_admin_area_level_1",
+            "name": "State/county of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "admin_area_level_1"
+        },
+        {
+            "id": null,
+            "key": "postal_address_admin_area_level_2",
+            "name": "Region of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "admin_area_level_2"
+        },
+        {
+            "id": null,
+            "key": "postal_address_country",
+            "name": "Country of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "country"
+        },
+        {
+            "id": null,
+            "key": "postal_address_postal_code",
+            "name": "ZIP/Postal code of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "postal_code"
+        },
+        {
+            "id": null,
+            "key": "postal_address_formatted_address",
+            "name": "Full/combined address of Postal address",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 37,
+            "id_suffix": "formatted_address"
+        },
+        {
+            "id": 44,
+            "key": "52c757263cabb05f9bdbcc59bce4751ee8bbf8b3",
+            "name": "Person Street 🛣️",
+            "group_id": 10,
+            "order_nr": 16,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 17:53:48",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 45,
+            "key": "d21a08072d06714ec85dda1832540b267124b17a",
+            "name": "Person City 🏙️",
+            "group_id": 10,
+            "order_nr": 17,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 17:59:34",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 46,
+            "key": "e71657edfe4f14c7b0af75adbfd08a44291f43ad",
+            "name": "Person State 🗺️",
+            "group_id": 10,
+            "order_nr": 18,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 18:02:44",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 47,
+            "key": "a66b3b2f3565b0e9a5b00403f265b6c7c19415a5",
+            "name": "Person Zip Code 📍",
+            "group_id": 10,
+            "order_nr": 19,
+            "field_type": "double",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 18:04:46",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 36,
+            "key": "im",
+            "name": "Instant messenger",
+            "group_id": null,
+            "order_nr": 20,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2023-12-13 21:11:39",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 38,
+            "key": "notes",
+            "name": "Notes",
+            "group_id": null,
+            "order_nr": 21,
+            "field_type": "text",
+            "json_column_flag": false,
+            "add_time": "2023-12-13 21:11:39",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 39,
+            "key": "birthday",
+            "name": "Birthday",
+            "group_id": null,
+            "order_nr": 22,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2023-12-13 21:11:39",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 40,
+            "key": "job_title",
+            "name": "Job title",
+            "group_id": null,
+            "order_nr": 23,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2023-12-13 21:11:39",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 34,
+            "key": "e6f4e32fb72847df7867d8267859f2d030c80e31",
+            "name": "Exercised Total",
+            "group_id": 5,
+            "order_nr": 25,
+            "field_type": "monetary",
+            "json_column_flag": true,
+            "add_time": "2023-12-07 23:22:55",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [
+                {
+                    "permission_set_id": "26fbe500-888e-11ee-8bd3-115e5c2d4994",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "58eccf00-4277-11ee-86e7-a5c8613d4e96",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "9a09ef60-888e-11ee-aeb4-b3fe021ed640",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "ca6530f0-6473-11ee-a399-a350622397ed",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                }
+            ],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": null,
+            "key": "e6f4e32fb72847df7867d8267859f2d030c80e31_currency",
+            "name": "Currency of Exercised Total",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 34,
+            "id_suffix": "currency"
+        },
+        {
+            "id": 33,
+            "key": "56882e27f8ec6fdc1393ed0e51ff45d3ba6d0663",
+            "name": "Invested Total",
+            "group_id": 5,
+            "order_nr": 26,
+            "field_type": "monetary",
+            "json_column_flag": true,
+            "add_time": "2023-12-07 23:22:36",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [
+                {
+                    "permission_set_id": "26fbe500-888e-11ee-8bd3-115e5c2d4994",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "58eccf00-4277-11ee-86e7-a5c8613d4e96",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "9a09ef60-888e-11ee-aeb4-b3fe021ed640",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "ca6530f0-6473-11ee-a399-a350622397ed",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                }
+            ],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": null,
+            "key": "56882e27f8ec6fdc1393ed0e51ff45d3ba6d0663_currency",
+            "name": "Currency of Invested Total",
+            "field_type": "varchar",
+            "edit_flag": true,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 33,
+            "id_suffix": "currency"
+        },
+        {
+            "id": 32,
+            "key": "55b4450c6e44003ffbcb5d8d95d6d14137c8d2c4",
+            "name": "VanillaSoft ID",
+            "group_id": 5,
+            "order_nr": 27,
+            "field_type": "double",
+            "json_column_flag": true,
+            "add_time": "2023-12-07 22:29:22",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [
+                {
+                    "permission_set_id": "26fbe500-888e-11ee-8bd3-115e5c2d4994",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "58ebbd90-4277-11ee-86e7-a5c8613d4e96",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "58eccf00-4277-11ee-86e7-a5c8613d4e96",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "9a09ef60-888e-11ee-aeb4-b3fe021ed640",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "ca6530f0-6473-11ee-a399-a350622397ed",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                }
+            ],
+            "user_restrictions": [
+                "readonly"
+            ],
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 31,
+            "key": "a8e2298ac72a2b41192c8a11ec2392c2382a1003",
+            "name": "Medicare Advantage Target List",
+            "group_id": 3,
+            "order_nr": 29,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2023-11-25 18:46:06",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 58,
+                    "label": "YES"
+                },
+                {
+                    "id": 59,
+                    "label": "NO"
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "key": "64eb47c814053d3adc1abc44bbda21bb07f46672",
+            "name": "Salutation",
+            "group_id": null,
+            "order_nr": 30,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 17:47:28",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 24,
+            "key": "first_name",
+            "name": "First name",
+            "group_id": null,
+            "order_nr": 31,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 25,
+            "key": "last_name",
+            "name": "Last name",
+            "group_id": null,
+            "order_nr": 32,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 2,
+            "key": "label",
+            "name": "Label",
+            "group_id": null,
+            "order_nr": 33,
+            "field_type": "enum",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2025-04-08 14:56:59",
+            "last_updated_by_user_id": 12760971,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 5,
+                    "label": "Customer",
+                    "color": "green"
+                },
+                {
+                    "id": 6,
+                    "label": "Hot lead",
+                    "color": "red"
+                },
+                {
+                    "id": 7,
+                    "label": "Warm lead",
+                    "color": "yellow"
+                },
+                {
+                    "id": 8,
+                    "label": "Cold lead",
+                    "color": "gray"
+                },
+                {
+                    "id": 60,
+                    "label": "LOI Sent",
+                    "color": "purple"
+                },
+                {
+                    "id": 66,
+                    "label": "PACE",
+                    "color": "brown"
+                },
+                {
+                    "id": 498,
+                    "label": "DONE",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 499,
+                    "label": "REFER DOC",
+                    "color": "pink"
+                },
+                {
+                    "id": 500,
+                    "label": "SBA rev",
+                    "color": "blue"
+                },
+                {
+                    "id": 501,
+                    "label": "ZOOM",
+                    "color": "purple"
+                },
+                {
+                    "id": 502,
+                    "label": "Linked",
+                    "color": "orange"
+                },
+                {
+                    "id": 503,
+                    "label": "Vendor",
+                    "color": "gray"
+                },
+                {
+                    "id": 504,
+                    "label": "ROMTech",
+                    "color": "gray"
+                },
+                {
+                    "id": 505,
+                    "label": "SOLO",
+                    "color": "gray"
+                },
+                {
+                    "id": 506,
+                    "label": "Not Active",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 507,
+                    "label": "Delay",
+                    "color": "orange"
+                },
+                {
+                    "id": 508,
+                    "label": "HOT - OTHER",
+                    "color": "red"
+                },
+                {
+                    "id": 509,
+                    "label": "Paused",
+                    "color": "brown"
+                },
+                {
+                    "id": 510,
+                    "label": "Patient",
+                    "color": "blue"
+                },
+                {
+                    "id": 512,
+                    "label": "Waiting for BT",
+                    "color": "yellow"
+                },
+                {
+                    "id": 514,
+                    "label": "WIP 12",
+                    "color": "red"
+                },
+                {
+                    "id": 515,
+                    "label": "PN PILOT",
+                    "color": "green"
+                },
+                {
+                    "id": 517,
+                    "label": "Hold for Order",
+                    "color": "gray"
+                },
+                {
+                    "id": 518,
+                    "label": "Hold for Order",
+                    "color": "gray"
+                },
+                {
+                    "id": 519,
+                    "label": "Special",
+                    "color": "pink"
+                },
+                {
+                    "id": 520,
+                    "label": "Special",
+                    "color": "pink"
+                },
+                {
+                    "id": 521,
+                    "label": "Waiting for order",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 522,
+                    "label": "Waiting for order",
+                    "color": "gray"
+                },
+                {
+                    "id": 523,
+                    "label": "WIP 17",
+                    "color": "yellow"
+                },
+                {
+                    "id": 524,
+                    "label": "WIP 17",
+                    "color": "yellow"
+                },
+                {
+                    "id": 525,
+                    "label": "HOT-Timeline",
+                    "color": "purple"
+                },
+                {
+                    "id": 526,
+                    "label": "HOT -TIMELINE",
+                    "color": "purple"
+                },
+                {
+                    "id": 527,
+                    "label": "CFD",
+                    "color": "green"
+                },
+                {
+                    "id": 533,
+                    "label": "WIP 14 CFD",
+                    "color": "green"
+                },
+                {
+                    "id": 535,
+                    "label": "Cancel/Reschedule",
+                    "color": "gray"
+                },
+                {
+                    "id": 536,
+                    "label": "23.1 Denied: Update Pt",
+                    "color": "red"
+                },
+                {
+                    "id": 541,
+                    "label": "ACTIVE FOR SELF_PAY",
+                    "color": "pink"
+                },
+                {
+                    "id": 547,
+                    "label": "NO WIP",
+                    "color": "pink"
+                },
+                {
+                    "id": 549,
+                    "label": "13 Ins Cleared: PendConfirmation",
+                    "color": "pink"
+                },
+                {
+                    "id": 553,
+                    "label": "CONFIRM ORDER",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "key": "f5c5881d425140d13097fa895c13efdd64d15bb3",
+            "name": "Suffix",
+            "group_id": null,
+            "order_nr": 33,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 17:48:22",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 26,
+            "key": "57c13244f81ac396d442b02539c52e9b0f99c825",
+            "name": "Title",
+            "group_id": null,
+            "order_nr": 34,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2023-09-18 21:22:29",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 4,
+            "key": "email",
+            "name": "Email",
+            "group_id": null,
+            "order_nr": 35,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 3,
+            "key": "phone",
+            "name": "Phone",
+            "group_id": null,
+            "order_nr": 36,
+            "field_type": "phone",
+            "json_column_flag": false,
+            "add_time": "2023-08-24 12:11:25",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 29,
+            "key": "022f41c9b6587274b3ccbbeb0119b2750f4d76ec",
+            "name": "Phone Ext",
+            "group_id": null,
+            "order_nr": 37,
+            "field_type": "double",
+            "json_column_flag": true,
+            "add_time": "2023-11-24 18:46:28",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 30,
+            "key": "d4a337600daea15b938994d2476b11236043223c",
+            "name": "Fax #",
+            "group_id": null,
+            "order_nr": 38,
+            "field_type": "phone",
+            "json_column_flag": true,
+            "add_time": "2023-11-25 18:24:27",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 43,
+            "key": "c061e094caa11e6ff2a587bfd4ea5ff0e7dac006",
+            "name": "LinkedIn URL 🌐",
+            "group_id": null,
+            "order_nr": 39,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-02-02 17:50:09",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 35,
+            "key": "914db6446b5e09639b0806d67ea41f5fef53e256",
+            "name": "MetaPulse Id",
+            "group_id": null,
+            "order_nr": 40,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2023-12-13 20:05:07",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [
+                {
+                    "permission_set_id": "26fbe500-888e-11ee-8bd3-115e5c2d4994",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "58ebbd90-4277-11ee-86e7-a5c8613d4e96",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "58eccf00-4277-11ee-86e7-a5c8613d4e96",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "9a09ef60-888e-11ee-aeb4-b3fe021ed640",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                },
+                {
+                    "permission_set_id": "ca6530f0-6473-11ee-a399-a350622397ed",
+                    "restrictions": [
+                        "readonly"
+                    ]
+                }
+            ],
+            "user_restrictions": [
+                "readonly"
+            ],
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true
+        },
+        {
+            "id": 51,
+            "key": "523a22c6028e9eac3dd723ad0d0d6164ccbf0d9a",
+            "name": "Patient Nav",
+            "group_id": null,
+            "order_nr": 41,
+            "field_type": "set",
+            "json_column_flag": true,
+            "add_time": "2025-03-19 15:38:23",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 13472902,
+            "active_flag": true,
+            "options": [
+                {
+                    "id": 516,
+                    "label": "Patient Nav"
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "key": "c3ffb940062f77ac50ac305eeba05a38ff68b157",
+            "name": "Home/Other phone",
+            "group_id": null,
+            "order_nr": 42,
+            "field_type": "phone",
+            "json_column_flag": true,
+            "add_time": "2025-03-28 18:41:44",
+            "update_time": "2025-04-15 21:23:12",
+            "last_updated_by_user_id": 13472902,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "restriction_settings": [],
+            "user_restrictions": null,
+            "description": null,
+            "created_by_user_id": 23165813,
+            "active_flag": true
+        }
+    ],
+    "additional_data": {
+        "pagination": {
+            "start": 0,
+            "limit": 500,
+            "more_items_in_collection": false
+        }
+    }
+}
